@@ -1,0 +1,20 @@
+{
+  "states": [
+    {
+      "name": "Bihar",
+      "districts": [ "Vaishali" , "Patna", "Gaya", "Muzaffarpur"]
+    },
+    {
+      "name": "Maharashtra",
+      "districts": ["Mumbai", "Pune", "Nagpur", "Nashik"]
+    },
+    {
+      "name": "Jharkhand",
+      "districts":["Ranchi","Dhanbad","Bokaro","Ramgarh","Khnuti","Hazaribagh"]
+    },
+    {
+      "name": "Tamil Nadu",
+      "districts":["Chennai","Vellore"]
+    }
+  ]
+}
