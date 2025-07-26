@@ -12,7 +12,7 @@ async function loadStates() {
       card.className = 'state-card';
 
       card.innerHTML = `
-        <h3>${state.name}</h3>
+        <h3 class="text-pink">${state.name}</h3>
         <ul type="circle">
           ${state.districts.map(d => `<li>${d}</li>`).join('')}
         </ul>

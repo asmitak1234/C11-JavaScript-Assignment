@@ -5,8 +5,9 @@ body {
   color: black;
 }
 
-h2 {
+h1 {
   text-align: center;
+  color:darkolivegreen;
 }
 
 #states-container {
@@ -29,6 +30,10 @@ h2 {
 
 .state-card ul {
   padding-left: 1rem;
+  color:forestgreen;
 }
 
-
+.text-pink{
+  color: palevioletred;
+  text-decoration:underline;
+}
