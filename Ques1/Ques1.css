@@ -1,0 +1,26 @@
+body{
+    text-align: center; 
+    background-color: bisque ;
+    margin-top: 4rem ; 
+    color: rgb(29, 148, 152);
+}
+
+button{
+    background-color:rgb(185, 203, 237);
+    font-weight:600;
+    padding: 0.3em;
+}
+
+#result{
+    font-style: italic;
+    text-decoration: underline;
+    font-size:x-large;
+    font-weight: bolder;
+    color:darkolivegreen;
+}
+
+#numbers{
+    font-weight: bold;
+    font-size: large;
+    color:chocolate;
+}

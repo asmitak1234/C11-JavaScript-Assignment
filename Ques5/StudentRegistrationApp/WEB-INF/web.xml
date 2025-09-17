@@ -1,0 +1,10 @@
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee" version="10">
+    <servlet>
+        <servlet-name>StudentController</servlet-name>
+        <servlet-class>StudentController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StudentController</servlet-name>
+        <url-pattern>/StudentController</url-pattern>
+    </servlet-mapping>
+</web-app>

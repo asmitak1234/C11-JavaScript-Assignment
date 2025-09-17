@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Ques1.css">
+    <title>Compound Interest Calculator</title>
+</head>
+<body>
+    <h1>Compound Interest Calculator</h1>
+    <p>Principal: Rs.1000</p>
+    <p>Interest Rate: 5%</p>
+    <input type="number" id="yearsInput" placeholder="Enter number of years" min="1">
+    <br/><br/><button onclick="calculateCompoundInterest()">Calculate</button>
+    <p id="result"></p>
+
+    <script>
+        function calculateCompoundInterest() {
+            const years = parseInt(document.getElementById('yearsInput').value);
+            const resultElement = document.getElementById('result');
+            
+            if (isNaN(years) || years < 1) {
+                resultElement.textContent = 'Please enter a valid number of years (≥1)';
+                return;
+            }
+            
+            const principal = 1000;
+            const rate = 0.05;
+            const amount = principal * Math.pow(1 + rate, years);
+            
+            resultElement.textContent = 
+                `After ${years} years, the Amount will be Rs.${amount.toFixed(2)}`;
+        }
+    </script>
+</body>
+</html>
